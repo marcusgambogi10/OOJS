@@ -59,16 +59,14 @@
         }
     }
     
-    const lojaFisica1 = new LojaFísica("Tênis Inc.");
-    const lojaOnline1 = new LojaOnline("Tênis Shop Online");
-    const lojaFisica2 = new LojaFísica("Tênis Outlet");
+    const lojaFisica1 = new LojaFísica("Sneakers SHOP");
+    const lojaOnline1 = new LojaOnline("Sneakers SHOP Online");
+    const lojaFisica2 = new LojaFísica("Sneakers SHOP Outlet");
     
-    lojaFisica1.adicionarTenis("Nike Air Max");
-    lojaFisica1.adicionarTenis("Adidas Ultraboost");
-    lojaOnline1.adicionarTenis("Puma RS-X");
-    lojaOnline1.adicionarTenis("New Balance 574");
-    lojaFisica2.adicionarTenis("Vans Old Skool");
-    lojaFisica2.adicionarTenis("Converse All Star");
+    lojaFisica1.adicionarTenis("NIKE COURT VISION");
+    lojaFisica1.adicionarTenis("NIKE SB FORCE 58");
+    lojaOnline1.adicionarTenis("NIKE AIR FORCE 1 REACTE");
+    lojaOnline1.adicionarTenis("NIKE DUNK LOW");
     
     console.log(lojaFisica1.listarTenis());
     console.log(lojaOnline1.listarTenis());
@@ -79,4 +77,4 @@
     lojaFisica1.fecharLoja();
     
     lojaOnline1.cadastrarCliente("Marcus");
-    lojaOnline1.comprarTenis("Vans Old Skool", "Marcus");
+    lojaOnline1.comprarTenis("NIKE DUNK LOW", "Marcus");
